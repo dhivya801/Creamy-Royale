@@ -92,3 +92,32 @@ figure{
     text-align: center;
     padding: 40px;
 }
+
+img{
+    max-width:100% !important;
+    height:auto !important;
+}
+
+@media (max-width: 600px){
+    nav ul{
+        display:block;
+        margin-left:0;
+        text-align:center;
+    }
+    li, h1, ul{
+        display:block;
+    }
+    input{
+        width:90%;
+        padding:12px;
+    }
+    .searchbar{
+        padding:15px;
+    }
+    .box{
+        display:block;
+        width:90%;
+        margin:10px auto;
+    }
+    .products{ text-align:center; }
+}
