@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#b8d8e7;
+}
+nav{
+    background-color:rgb(254, 161, 177);
+    color:black;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 40%;
+    color:rgb(151, 150, 150);
+}
+
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+input{
+    width:40%;
+    padding:15px;
+    
+}
+.searchbar{
+    padding: 25px;
+    text-align: center;
+
+}
+figure{
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-image {
+    display: block;         
+    margin: 0 auto;         
+    max-width: 100%;         
+    height: auto;           
+}
+#classic, #premium, #specials, #delights{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box,.flav{
+    border: 5px solid black;
+    display:inline-block;
+    width: 200px;
+   overflow: hidden;
+    text-align: center;
+}
+.box:hover,.flav:hover{
+    background-color: black;
+    color:white;
+
+}
+.spec, .delight{
+    border:5px solid black;
+    display:inline-block;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.spec:hover, .delight:hover{
+    background-color: black;
+    color:white;
+
+}
+.products{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    margin-top: 20px;
+    padding:20px;
+    background-color: rgb(254, 161, 177);
+}
+
+#contact{
+    background-color:rgb(254, 161, 177);
+    color:black;
+    text-align: center;
+    padding: 40px;
+}
